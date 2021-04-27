@@ -14,12 +14,10 @@ header {
     padding: 20px 0;
 }
 
-.qwerty {
+.body_content {
     background-image: url(../images/IMG_8784.jpg);
-    height: 820px;
-    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
-    z-index: 1;
     height: 880px;
 }
 
@@ -27,16 +25,16 @@ footer {
     background-color: black;
     height: 450px;
     border-top: solid 33px #3f0002;
-    z-index: 10;
 }
 
-.asdf {
+.content {
     max-width: 716px;
     margin: auto;
     background-color: white;
+    font-family: 'Arvo', serif;
 }
 
-.asdf h1 {
+.content h1 {
     background-color: #98161b;
     color: white;
     font-size: 20px;
@@ -54,14 +52,18 @@ footer {
     padding-bottom: 100px;
 }
 
-.zxcv {
+.text {
     padding: 0 76px;
     color: #98161b;
     font-size: 17px;
     line-height: 30px;
 }
 
-.zxcv time {
+.text samp {
+    font-weight: bold;
+}
+
+.text time {
     color: #7d7d7d;
 }
 
@@ -69,6 +71,7 @@ footer {
     position: fixed;
     right: 0px;
     color: white;
+    top: 300px;
 }
 
 .Social div {
