@@ -34,6 +34,7 @@ footer {
     font-family: 'Arvo', serif;
 }
 
+
 .content h1 {
     background-color: #98161b;
     color: white;
@@ -70,11 +71,11 @@ footer {
 .Social {
     position: fixed;
     right: 0px;
-    color: white;
     top: 300px;
 }
 
-.Social div {
+.Social a {
+    display: block;
     background-color: #98161b;
     height: 50px;
     width: 50px;
@@ -82,8 +83,17 @@ footer {
     text-align: center;
     align-items: center;
     line-height: 50px;
+    color: white;
+    transition: .3s;
 }
 
-.Social div:first-child {
+
+
+.Social a:first-child {
     background-color: #850409;
+}
+
+.Social a:hover {
+    color: rgb(206, 206, 206);
+    cursor: pointer;
 }
